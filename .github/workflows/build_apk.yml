@@ -27,7 +27,7 @@ jobs:
 
     - name: Recreate Android Project
       run: |
-        flutter create . --platforms=android --org=com.gameiaty.app
+        flutter create . --project-name=gameiaty_app --platforms=android --org=com.gameiaty.app
 
     - name: Get Dependencies
       run: flutter pub get
